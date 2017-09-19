@@ -1,0 +1,110 @@
+function jasonchan(json){
+	json.s.forEach(function(el){
+		var ul=document.getElementById("oul");
+		var oli=document.createElement('li')
+		oli.innerHTML="<a  href="+"http://www.baidu.com/s?wd="+el+">"+el+"</a>";
+		ul.append(oli);
+	})
+}
+$(document).ready(function(){
+	$('#inp').keyup(function(){
+		if($('#inp').val()!='')
+		{
+			$('#find').css(
+				'display','block'
+			)
+			var os=document.createElement('script')
+			os.src="https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd="+$('#inp').val()+"&cb=jasonchan";
+			document.body.appendChild(os);
+		}
+		else
+		{
+			$('#find').css(
+				'display','none'
+			)
+			$('#oul').children().remove();
+		}
+	})
+	
+})	
+
+$(document).ready(function(){
+	$("input").focus(function(){
+		$("span").css(
+			"border","1px #0000FF solid"
+		)
+		$("input").blur(function(){
+			$("span").css(
+				"border","1px black solid"
+			)
+		})
+	})
+}
+)
+$(document).ready(function(){
+	$("#cl").mouseover(function(){
+		$('#cl').css(
+			"background-color","#006DCC"
+		)
+		$('#cl').addClass("baidu-")
+	})
+	$("#cl").mouseout(function(){
+		$('#cl').css(
+			"background-color","#3385ff"
+		)
+		$('#cl').removeClass("baidu-")
+	})
+})
+
+$(document).ready(function(){
+	$("#goto-hidden").mouseover(function(){
+		$("#behide").css(
+			"display","inline-block"
+		)
+	}
+	)	
+	$("#behide").mouseleave(function(){
+		$("#behide").css(
+			"display","none"
+		)
+	})
+})
+$(document).ready(function(){
+	$("#set,.dbmenu").mouseover(function(){
+		$(".dbmenu").css(
+			"display","block"
+		)
+	})
+	$(".dbmenu,#set").mouseleave(function(){
+		$(".dbmenu").css(
+			"display","none"
+		)
+	})
+})
+$(document).ready(function(){
+	$("#end").click(function(){
+		$("#fading").hide(3000)
+		$("#blackhole").css(
+			"display","block"
+		)
+		$("#blackhole").addClass("-blackhole")
+	})
+})
+$(document).ready(function(){
+	$(".theimage").hover(function(){
+		$(".btnLeft").css(
+			"display","block"
+		)
+		$(".btnRight").css(
+			"display","block"
+		)
+	})
+	$(".theimage").mouseleave(function(){
+		$(".btnLeft").css(
+			"display","none"
+		)
+		$(".btnRight").css(
+			"display","none"
+		)
+	})
+})
