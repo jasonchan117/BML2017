@@ -1,0 +1,31 @@
+#anou{
+	width: 1300px;
+	height:600px;
+
+}
+#anou .anou-tit li a{
+	color: black;
+	font-weight: 700;
+}
+#anou .anou-tit li{
+	float: left;
+	margin: 20px;
+}
+#anou .anou-tit{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left:50%;
+	margin-top: 20px
+}
+#anou .every-news{
+	padding-top:100px ;
+}
+#anou .every-news li{
+	list-style-type:disc ;
+	width:1300px ;
+	margin-top: 20px;
+	border-bottom:1px dotted black ;
+}
+#anou .every-news li a{
+	color:black;
+}

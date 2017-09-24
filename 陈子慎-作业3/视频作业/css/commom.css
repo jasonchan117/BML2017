@@ -1,0 +1,413 @@
+*{
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+img{
+	border: none;
+}
+#header{
+	line-height: 76px;
+
+}
+#nav{
+	float:right;
+	margin-top: 20px;
+}
+#header .logo{
+	margin-top:9px;
+}
+#news{
+	height: 152px;
+
+}
+.wrap{
+	width:1100px;
+	margin:0 auto;
+}
+#nav li{
+	width: 90px;
+	height:36px;
+	float:left;
+}
+#nav li a{
+	float:left;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 36px;
+	color: #434343;
+	font-weight: bold;
+	font-size: 15px;
+}
+#nav li a:hover{
+	color: #e06666;
+}
+#banner{
+	height: 453px;
+	background: url(../img/banner01.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#trend{
+	width: 640px;
+	float: left;
+
+	margin-top: 5px;
+}
+#notice{
+	width: 400px;
+	height: 100%;
+	float: right;	
+	margin-top: 5px;
+}
+/*#trend .trends-title,#notice .notice-title{
+	float: left;
+	color#333;
+	font-size: 16px;
+}
+#trend .trends-more,#notice .notice-more{
+	float: right;
+	color:#333;
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+	width: 100px;
+	height: 30px;
+}
+#trend .trends-more:hover,#notice .notice-more:hover{
+	background-color: orange;
+	border-radius: 15px;
+	color: white;
+}*/
+.title{
+	float: left;
+	color#333;
+	font-size: 16px;
+}
+.more{
+	float: right;
+	color:#333;
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+	width: 100px;
+	height: 30px;
+}
+.more:hover{
+	background-color: orange;
+	border-radius: 15px;
+	color: white;
+}
+#trend .trends-list{
+	clear: both;
+}
+.news-item{
+	width: 295px;
+	height: 30px;
+	float: left;
+	background: url(../img/home-bg1.png);
+	background-repeat:no-repeat ;
+	text-indent: 15px;
+}
+.news-item a{
+	color: #333;
+	font-size: 12px;
+}
+#notice .notice-list{
+	width: 382px;
+	border: 1px dotted #333;
+	clear: both;
+}
+#notice .notice-list li{
+	height:28px;
+	float: none;
+	text-align: center;
+}
+#course{
+	height: 700px;
+	background-color:#C0C0C0;
+	width: 1580px;
+}
+#course .course-list li{
+	float: left;
+	width: 316px;
+	margin: 0;
+}
+/*#course .course-list img{
+	margin-left:45px;
+	margin-right:45px ;
+	margin-top:300px;
+}*/
+#course .course-list{
+	display: block;
+}
+#course .course-list li{
+	text-align: center;
+	height: 2px;
+}
+#course .course-list li a{
+	display: inline-block;
+	margin: 0;
+	text-align: center;
+	margin-top:100px;
+	font-size:400;
+	width: 150px;
+	text-align: center;
+	width: 200px;
+	margin-left: 50px; 	
+	margin-right: 50px;
+	
+}
+#course .course-list .course-titile{
+	display: block;
+	text-align: center;
+	text-indent: 15px;
+	padding-top:200px ;
+}
+#course .course-list h3{
+	text-indent:720px;	
+	padding-top:30px ;
+}
+#course .local{
+	margin-top: 350px;
+	width: 150px;
+	margin-right:715px ;
+	margin-right:715px ;
+}
+#solgan{
+	background:green;
+	height: 400px;
+	width:1580px;
+}
+#solgan .block{
+	margin: 0 auto;
+	background: ;
+	width: 200px;
+	height: 40px;
+	padding-top:30px ;
+}
+#solgan .block .block1{
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	width: 100px;
+	background: white;
+}
+#solgan .block .block1 a{
+	color: black;
+}
+#solgan .block .block2{
+	float: right;
+	width:100px;
+	line-height: 40px;
+	text-align: center;
+	background:orange;
+}
+#solgan .block .block2 a{
+	color: white;
+}
+#solgan .solgan-intro{
+	margin: 0 auto;
+	height: 120px;
+	width: 500px;
+	padding-top: 30px;
+	border-bottom: 1px solid white;
+	
+}
+#solgan .solgan-intro h1{
+	text-indent: 187px;
+	color: white;
+}
+#solgan .solgan-intro h3{
+	padding-top: 20px;
+	text-indent: 165px;
+	color:white;
+}
+#solgan .solgan-intro p{
+	padding-top:50px ;
+	color: white;
+	font-weight: 400;
+}
+#solgan .know{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 130px;
+	margin-left:750 ;
+}
+#solgan .know a{
+	border: 1px solid white;
+	border-radius: 6px;
+	color: white;
+	padding: 7px;
+}
+#question{
+	background: yellow;
+	height: 400px;
+	width: 1580px;
+}
+#question ul{
+	margin-left:190px ;
+	padding: 10px;
+	padding-top:20px ;
+	padding-left:25px ;
+	padding-bottom:20px ;
+	margin-top:20px ;
+	border: 1px dotted black;
+}
+#question ul a{
+	color: black;
+}
+#question .problem ul li{
+	background:url(../img/Problem-bg.png);
+	margin-top: 10px;
+	background-repeat:no-repeat ;
+	border-bottom:1px dotted black ;
+	text-indent: 15px;
+}
+#question .problem{
+	width: 1000px;
+	height: 400px;
+	float: left;
+
+}
+#question .problem h2{
+	padding-top:60px ;
+	padding-left:150px ;
+	
+}
+#question .free{
+	width:580px ;
+	height:400px;
+	float: right;
+	background: yellow;
+}
+#question .free h2{
+	text-align: center;
+	padding-top: 60px;
+}
+.free form{
+	height: 250px;
+	border: 1px dotted black;
+	margin-left: 145px;
+	margin-right:145px;
+	padding-top:50px ;
+}
+.free span{
+	text-align: center;
+	margin-left:115px;
+}
+.check-inp
+{
+	width: 40px;
+}
+.free  .inp{
+	display: block;
+	width: 200px;
+	text-align: center;
+	margin-left:45px ;
+	height: 30px;
+}
+.free p{
+	margin-left:50px ;
+}
+
+.free p input{
+	width:85px;
+}
+.free .submit{
+	width: 100px;
+	height: 25px;
+	margin-left: 45px;
+	margin-right:5px ;
+	margin-top: 20px;
+	background: black;
+	text-align: center;
+	color: white;
+	float: left;
+}
+.free .reset{
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	margin-top: 20px;
+	background: black;	
+	float: left;
+	color: white;
+}
+#footer{
+	width:1580px ;
+	height:150px;
+	background:black ;
+}
+#footer li{
+	float: left;
+}
+#footer ul{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	margin-top: 30px;
+}
+#footer a{
+	color: white;
+	margin: 5px;
+	font-weight: 700;
+}
+#footer .infor1{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	margin-top: 70px;	
+	color: white;
+	font-weight: 700;
+}
+#footer .infor2{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	margin-top: 120px;	
+	color: white;
+	font-weight: 700;	
+}
+#define{
+
+	width: 1580px;
+	height: 500px;
+}
+#define h1{
+	text-align:center;
+	color:black;
+	padding-top:10px;
+}
+#define ul{
+	background: url(../img/about-bg.jpg);
+	background-repeat:no-repeat ;
+	margin-left:100px;
+	height: 400px;
+}
+#define ul li{
+	margin-top:50px ;
+}
+#define ul li p{
+	width:850px;
+	margin-left: 130px;
+}
+#define ul li h3{
+		margin-left: 130px;
+}
+#define  .img1{
+	margin-right: -25px;
+	float: right;
+	margin-right:200px ;
+}
+#define  .img2{
+
+	float: right;
+	margin-right:200px ;
+}

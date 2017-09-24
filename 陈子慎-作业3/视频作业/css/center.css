@@ -1,0 +1,54 @@
+#vary{
+	width: 1580px;
+	height:900px;
+}
+#vary .vary-tit li a{
+	color: black;
+}
+#vary .vary-tit li{
+	float: left;
+	margin: 20px;
+}
+#vary .vary-tit{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left:50%;
+	margin-top: 20px
+
+}
+#vary .line1 {
+	padding-top:60px ;
+}
+#vary .line2{
+	padding-top:240px ;
+}
+#vary .line1 li,.line2 li{
+	float: left;
+	width: 395px;
+}
+#vary .line1 li a p,.line2 li a p{
+	margin-top:20px ;
+	text-align: center;
+}
+#vary .line1 li img,.line2 li img{
+	width:170px;
+	height: 250px;
+	margin-right:80px;
+	margin-left:115px ;
+	margin-top:80px;
+}
+#question{
+	background: white;
+}
+#question .problem{
+	float: right;
+}
+#question .free{
+	background: white;
+	float: left;
+
+}
+
+#question .problem ul{
+	margin-left:50px ;
+}
